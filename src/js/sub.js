@@ -1,7 +1,7 @@
 import '@scss/swiper';
 import Swiper, { Navigation, Pagination } from 'swiper';
 
-const swiper = new Swiper('.swiper', {
+new Swiper('.swiper', {
    modules: [ Navigation, Pagination ],
    direction: 'vertical',
    loop: true,
@@ -17,4 +17,3 @@ const swiper = new Swiper('.swiper', {
      prevEl: '.swiper-button-prev',
    },
  });
-

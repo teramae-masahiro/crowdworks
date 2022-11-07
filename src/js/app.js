@@ -1,1 +1,1 @@
-import '@scss/swiper';
+import '@scss/app';
