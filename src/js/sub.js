@@ -1,14 +1,16 @@
 import { Slider } from './class/swiper';
 import { ScrollObserver } from './class/observer';
 import '@scss/reset/reset';
+import gsap from "gsap";
+
 
 
 //slider
 const slider = new Slider(".swiper");
+const a = document.querySelector('.swiper-slide');
 slider.start();
 slider.swiper.on('slideChange', function () {
-    console.log('slide changed');
-    console.log(slider.swiper);
+console.log(gsap,a);
 });
 
 //observer

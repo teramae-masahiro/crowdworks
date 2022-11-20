@@ -11,18 +11,18 @@ export class Slider {
     return new Swiper(this.el, {
       // Optional parameters
       // direction: 'vertical',
-      //   modules: [ Navigation, Pagination ],
+        // modules: [ Navigation, Pagination ],
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
       loop: true,
       grabCursor: true,
-      effect: "coverflow",
+      // effect: "coverflow",
       centeredSlides: true,
-      slidesPerView: 1,
+      // slidesPerView: 1,
       speed: 1000,
-      breakpoints: {
-        1024: {
-          slidesPerView: 2,
-        },
-      },
+
     });
   }
 
