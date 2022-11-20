@@ -7,6 +7,17 @@ const assetFile = '[name]';
 module.exports = () => merge(commonConf({ outputFile,assetFile }),{
   mode: 'development',
   devtool: 'source-map',
+  module: {
+    rules: [
+      {
+        test: /\.(jpe?g|gif|png|svg|woff2?|ttf|eot)$/,
+        type: "asset/resource",
+        generator: {
+          filename: `images/${assetFile}.[ext]`,
+        }
+      },
+    ]
+  },
   devServer: {
     static: {
       directory: './public',

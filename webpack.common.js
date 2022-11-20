@@ -44,7 +44,7 @@ module.exports = ({outputFile,assetFile}) => ({
 
       },
       {
-        test: /\.(jpe?g|gif|png|svg|woff2?|ttf|eot)$/,
+        test: /\.(woff2?|ttf|eot)$/,
         type: "asset/resource",
         generator: {
           filename: `images/${assetFile}.[ext]`,
@@ -95,7 +95,7 @@ module.exports = ({outputFile,assetFile}) => ({
 
         default: false,
       },
-    }
+    },
   },
   resolve: {
     alias: {
