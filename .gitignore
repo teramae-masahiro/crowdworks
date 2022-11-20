@@ -1,3 +1,12 @@
+# node_modules/
+# public/
+# package-lock.json
+# *
+*~
+*.swp
+*.swo
+.DS_Store
+*~
+*#
+.#*
 node_modules/
-public/
-package-lock.json
