@@ -1,19 +1,9 @@
-import '@scss/swiper';
-import Swiper, { Navigation, Pagination } from 'swiper';
+import { Slider } from './class/swiper';
+import '@scss/reset/reset';
 
-new Swiper('.swiper', {
-   modules: [ Navigation, Pagination ],
-   direction: 'vertical',
-   loop: true,
-
-   // If we need pagination
-   pagination: {
-     el: '.swiper-pagination',
-   },
-
-   // Navigation arrows
-   navigation: {
-     nextEl: '.swiper-button-next',
-     prevEl: '.swiper-button-prev',
-   },
- });
+const slider = new Slider(".swiper");
+slider.start();
+// slider.swiper.on('slideChange', function () {
+//     console.log('slide changed');
+//     console.log(slider.swiper);
+// });
