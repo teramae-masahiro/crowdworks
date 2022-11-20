@@ -32,7 +32,7 @@ module.exports = ({outputFile,assetFile}) => ({
         }
       },
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
