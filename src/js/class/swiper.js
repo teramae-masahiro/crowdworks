@@ -12,12 +12,15 @@ export class Slider {
       // Optional parameters
       // direction: 'vertical',
         // modules: [ Navigation, Pagination ],
+
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
       loop: true,
       grabCursor: true,
+      effect: "fade",
+
       // effect: "coverflow",
       centeredSlides: true,
       // slidesPerView: 1,

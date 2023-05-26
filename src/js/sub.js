@@ -1,6 +1,6 @@
 import { Slider } from './class/swiper';
 import { ScrollObserver } from './class/observer';
-import '@scss/reset/reset';
+// import '@scss/reset/reset';
 import gsap from "gsap";
 
 
