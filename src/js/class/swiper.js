@@ -28,6 +28,7 @@ export class Slider {
 
     });
   }
+  
 
   start(options = {}) {
     options = Object.assign(

@@ -1,0 +1,50 @@
+/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/app.scss ***!
+  \******************************************************************************************************************************************************/
+.target {
+  height: 200vh;
+  width: 100%;
+}
+
+.swiper {
+  width: 100vw;
+  height: 50vh;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+
+.l-head {
+  padding: 10px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tab {
+  display: inline-block;
+  line-height: 30px;
+  border-radius: 10px;
+  background: #CBB279;
+  color: white;
+  padding: 0 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.test {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text {
+  text-align: center;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=app.css.map*/
