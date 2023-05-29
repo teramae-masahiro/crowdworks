@@ -27,8 +27,14 @@
 }
 
 .swiper-slide img {
-  height: auto;
+  height: 100vh;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-wrapper {
+  overflow: hidden;
 }
 
 .swiper-slide img {
@@ -45,6 +51,8 @@
   left: 0;
   top: 0;
   width: 80%;
+  height: 30vh;
+  overflow: hidden;
 }
 
 .l-header {
@@ -102,8 +110,10 @@ ul {
 }
 
 li {
+  text-shadow: 1px 1px 10px black;
   list-style: none;
   writing-mode: vertical-rl;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=app.css.map*/
