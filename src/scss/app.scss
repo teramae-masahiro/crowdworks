@@ -13,6 +13,8 @@
   position: absolute;
   left: 0;top: 0;
   width: 80%;
+  height: 30vh;
+  overflow: hidden;
 
 
 }
@@ -65,6 +67,8 @@ ul {
 
 }
 li {
+  text-shadow: 1px 1px 10px black;
   list-style: none;
   writing-mode: vertical-rl;
+  overflow: hidden;
 }
