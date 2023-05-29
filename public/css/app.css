@@ -51,8 +51,14 @@
   left: 0;
   top: 0;
   width: 80%;
-  height: 30vh;
+  height: 50vh;
   overflow: hidden;
+}
+@media (max-width: 600px) {
+  .l-head {
+    /* スマートフォン向けのスタイルをここに書く */
+    top: 30%;
+  }
 }
 
 .l-header {
@@ -63,10 +69,11 @@
   text-shadow: 1px 1px 10px black;
   margin: auto 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .l-header {
     /* スマートフォン向けのスタイルをここに書く */
     margin: auto auto;
+    font-size: 30px;
   }
 }
 

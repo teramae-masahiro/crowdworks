@@ -23,19 +23,20 @@
 
 
 }
-.l-header {
+.l-title {
   writing-mode: vertical-rl;
   color: white;
   font-size: 40px;
   letter-spacing: 8px;
   text-shadow: 1px 1px 10px black;
   margin:auto 0;
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     /* スマートフォン向けのスタイルをここに書く */
     // writing-mode:horizontal-tb;
     margin: auto auto;
-    font-size: 30px;
+    font-size: 20px;
   }
+
 }
 .tab {
   display: inline-block;
