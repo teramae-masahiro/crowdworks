@@ -13,8 +13,13 @@
   position: absolute;
   left: 0;top: 0;
   width: 80%;
-  height: 30vh;
+  height: 50vh;
   overflow: hidden;
+  @media (max-width: 600px) {
+    /* スマートフォン向けのスタイルをここに書く */
+    // writing-mode:horizontal-tb;
+    top: 30%;
+  }
 
 
 }
